@@ -4,7 +4,8 @@ public class PictureStorage implements IPictureStorage {
 
     @java.lang.Override
     public void savePicture(Picture picture) {
-        System.out.println("我们的测试");
+        int i = 11;
+        System.out.println("我们的测试" + i);
     }
 
     @java.lang.Override

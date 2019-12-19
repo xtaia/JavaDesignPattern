@@ -1,7 +1,12 @@
 package com.xtaia.gof;
 
+import java.math.BigDecimal;
+
 /**
- * 封装
+ * 封装、隐藏具体的实现，函数
+ * 抽象、关于业务的结果而不是具体实现
+ * 继承、表示A  is a的问题，extends；单继承；关注共同的行为；
+ * 多态、子类替换父类的实现
  * 1、属性通过private、public暴露属性的可访问性
  *
  */
